@@ -1,0 +1,115 @@
+Toy Robot Simulator 'exit' to quit
+Commands :
+PLACE X,Y,F --> int:x (0 -5) and int:y (0 -5), F : {NORTH|EAST|SOUTH|WEST}
+MOVE
+LEFT
+RIGHT
+REPORT
+> MOVE
+MOVE
+Failed
+> MOVE
+MOVE
+Failed
+> PLACE 0,0,WEST
+PLACE 0,0,WEST
+Success
+> MOVE
+MOVE
+Failed
+> REPORT
+REPORT
+x=0, y=0,facing=WEST
+> RIGHT
+RIGHT
+> MOVE
+MOVE
+Success
+> MOVE
+MOVE
+Success
+> MOVE
+MOVE
+Success
+> REPORT
+REPORT
+x=0, y=3,facing=NORTH
+> RIGHT
+RIGHT
+> MOVE
+MOVE
+Success
+> MOVE
+MOVE
+Success
+> REPORT
+REPORT
+x=2, y=3,facing=EAST
+> MOVE
+MOVE
+Success
+> MOVE
+MOVE
+Success
+> MOVE
+MOVE
+Success
+> MOVE
+MOVE
+Failed
+> REPORT
+REPORT
+x=5, y=3,facing=EAST
+> LEFT
+LEFT
+> MOVE
+MOVE
+Success
+> MOVE
+MOVE
+Success
+> REPORT
+REPORT
+x=5, y=5,facing=NORTH
+> LEFT
+LEFT
+> LEFT
+LEFT
+> MOVE
+MOVE
+Success
+> MOVE
+MOVE
+Success
+> REPORT
+REPORT
+x=5, y=3,facing=SOUTH
+> RIGHT
+RIGHT
+> RIGHT
+RIGHT
+> REPORT
+REPORT
+x=5, y=3,facing=NORTH
+> MOVE
+MOVE
+Success
+> REPORT
+REPORT
+x=5, y=4,facing=NORTH
+> A
+A
+I don't find a valid command
+> PLACE 9,9,WEST
+PLACE 9,9,WEST
+i can't place the robot, please set x <=5 Y<=5
+> PLACE 0,0,SOUTH WEST
+PLACE 0,0,SOUTH WEST
+I don't find a valid command
+x,y is not integer
+> REPORT
+REPORT
+x=5, y=4,facing=NORTH
+> EXIT
+EXIT
+Exiting.
